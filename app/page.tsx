@@ -12,7 +12,7 @@ export default function Portfolio() {
     <div
       className={`flex flex-col min-h-screen items-center justify-start bg-gray-50 text-gray-900 ${inter.className}`}
     >
-        <link rel="icon" type="image/png" href="/favicon.png" />
+     
       {/* Cover / Hero Section */}
       <div
         className="relative w-full h-[280px] bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600 rounded-b-2xl shadow-md"
@@ -128,6 +128,30 @@ export default function Portfolio() {
               tools<br></br>.
               (in development)
             </p>
+          </Link>
+              <Link
+            href="https://socailmedia-taupe.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group flex flex-col items-center bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 p-6 max-w-sm border border-gray-100"
+          >
+            <div className="overflow-hidden rounded-xl w-full">
+              <Image
+                src="/sc.png.png"
+                alt="Imagnify Project"
+                width={400}
+                height={400}
+                className="rounded-xl object-contain w-full h-auto group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+
+            <h2 className="mt-5 text-2xl font-semibold text-gray-900">SocialPlug</h2>
+<p className="mt-2 text-center text-gray-700 leading-relaxed text-[15px]">
+  Your space to post, chat, and stay connected with the people who matter.  
+  SocialPlu makes socializing simple.<br />
+  Currently in development.
+</p>
+
           </Link>
         </div>
       </section>
