@@ -137,7 +137,7 @@ export default function Portfolio() {
           >
             <div className="overflow-hidden rounded-xl w-full">
               <Image
-                src="/sc.png.png"
+                src="/sc.png"
                 alt="Imagnify Project"
                 width={400}
                 height={400}
